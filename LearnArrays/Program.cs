@@ -13,8 +13,5 @@ class Program
                 Console.WriteLine(order);
             }
         }
-        {
-            
-        }
     }
 }
