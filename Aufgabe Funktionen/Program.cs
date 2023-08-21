@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(MyMath.calc_ggT(2,3));
+        Console.WriteLine(MyMath.calc_ggT(12,16));
     }
 }

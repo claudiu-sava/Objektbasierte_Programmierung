@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe Funktionen", "Aufgabe Funktionen\Aufgabe Funktionen.csproj", "{E97F0AB0-7B7A-46A0-8DC7-D8E3DE7151DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnArrays", "LearnArrays\LearnArrays.csproj", "{982C9C61-6644-4639-A61F-2822428E848F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{E97F0AB0-7B7A-46A0-8DC7-D8E3DE7151DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E97F0AB0-7B7A-46A0-8DC7-D8E3DE7151DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E97F0AB0-7B7A-46A0-8DC7-D8E3DE7151DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982C9C61-6644-4639-A61F-2822428E848F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982C9C61-6644-4639-A61F-2822428E848F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982C9C61-6644-4639-A61F-2822428E848F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982C9C61-6644-4639-A61F-2822428E848F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
