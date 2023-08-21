@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objektbasierte_Programmierung", "Objektbasierte_Programmierung\Objektbasierte_Programmierung.csproj", "{2D9DDF72-90FE-4541-8189-DDEFD50C0836}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{DD2AA885-3BB5-4D5F-BC45-18805DDBABA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D9DDF72-90FE-4541-8189-DDEFD50C0836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D9DDF72-90FE-4541-8189-DDEFD50C0836}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D9DDF72-90FE-4541-8189-DDEFD50C0836}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D9DDF72-90FE-4541-8189-DDEFD50C0836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2AA885-3BB5-4D5F-BC45-18805DDBABA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2AA885-3BB5-4D5F-BC45-18805DDBABA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2AA885-3BB5-4D5F-BC45-18805DDBABA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2AA885-3BB5-4D5F-BC45-18805DDBABA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
