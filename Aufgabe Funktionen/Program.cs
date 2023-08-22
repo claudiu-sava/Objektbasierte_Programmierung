@@ -6,10 +6,25 @@ class Program
 {
     static void Main(string[] args)
     {
-        int firstNumber = readInt();
-        int secondNumber = readInt();
-        Console.WriteLine(MyMath.calc_ggT(firstNumber,secondNumber));
+        bool stop = false;
+
+        while (!stop)
+        {
+            int firstNumber = readInt();
+            int secondNumber = readInt();
+            Console.WriteLine(MyMath.calc_ggT(firstNumber,secondNumber));
+            Console.WriteLine("Do you want to continue? y/n");
+            Console.Write(">> ");
+            string userAnswer = Console.ReadLine();
+            if (userAnswer != "y" || userAnswer != "Y")
+            {
+                stop = true;
+            }
+        }
+
     }
+    
+    
 
     static int readInt()
     {

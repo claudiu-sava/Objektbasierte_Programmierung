@@ -26,4 +26,12 @@ public class MyMath
             return calc_ggT(b, a%b);
         }
     }
+
+    public static void Swap(int a, int b)
+    {
+        int z = a;
+        a = b;
+        b = z;
+
+    }
 }
