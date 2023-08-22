@@ -6,10 +6,30 @@ class Program
 {
     static void Main(string[] args)
     {
-        int firstNumber = readInt();
-        int secondNumber = readInt();
-        Console.WriteLine(MyMath.calc_ggT(firstNumber,secondNumber));
+        int[] testArr = {2,5,4,6};
+        bool stop = false;
+
+        while (!stop)
+        {
+            int firstNumber = readInt();
+            int secondNumber = readInt();
+            Console.WriteLine(MyMath.calc_ggT(firstNumber,secondNumber));
+            Console.WriteLine("Do you want to continue? y/n");
+            Console.Write(">> ");
+            string userAnswer = Console.ReadLine();
+            if (!(userAnswer is "y" or "Y"))
+            {
+                stop = true;
+            }
+        }
+        
+        Console.WriteLine($"The MittelWert from array is {MyMath.MittelWert(testArr)}");
+        Console.WriteLine($"The max number from array is {MyMath.MaxNumber(testArr)}");
+        Console.WriteLine($"The min number from array is {MyMath.MinNumber(testArr)}");
+        
     }
+    
+    
 
     static int readInt()
     {
