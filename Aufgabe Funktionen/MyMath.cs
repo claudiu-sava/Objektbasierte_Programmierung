@@ -34,4 +34,25 @@ public class MyMath
         b = z;
 
     }
+
+    public static double MittelWert(int[] numbers)
+    {
+        double sum = 0;
+
+        foreach (int i in numbers)
+        {
+            sum += i;
+        }
+        return sum / numbers.Length;
+    }
+
+    public static int MaxNumber(int[] numbers)
+    {
+        return numbers.Max();
+    }
+
+    public static int MinNumber(int[] numbers)
+    {
+        return numbers.Min();
+    }
 }

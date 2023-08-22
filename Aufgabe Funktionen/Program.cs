@@ -6,6 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        int[] testArr = {2,5,4,6};
         bool stop = false;
 
         while (!stop)
@@ -16,12 +17,16 @@ class Program
             Console.WriteLine("Do you want to continue? y/n");
             Console.Write(">> ");
             string userAnswer = Console.ReadLine();
-            if (userAnswer != "y" || userAnswer != "Y")
+            if (!(userAnswer is "y" or "Y"))
             {
                 stop = true;
             }
         }
-
+        
+        Console.WriteLine($"The MittelWert from array is {MyMath.MittelWert(testArr)}");
+        Console.WriteLine($"The max number from array is {MyMath.MaxNumber(testArr)}");
+        Console.WriteLine($"The min number from array is {MyMath.MinNumber(testArr)}");
+        
     }
     
     
