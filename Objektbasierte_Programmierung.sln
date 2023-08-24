@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instanzvariablen", "Instanz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wut", "Wut\Wut.csproj", "{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auto", "Auto\Auto.csproj", "{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
