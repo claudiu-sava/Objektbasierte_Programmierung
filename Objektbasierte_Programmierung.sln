@@ -8,6 +8,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnArrays", "LearnArrays\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instanzvariablen", "Instanzvariablen\Instanzvariablen.csproj", "{3B6324A0-AB89-4974-8432-518466238A66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wut", "Wut\Wut.csproj", "{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUebig", "AutoUebig\AutoUebig.csproj", "{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portfolio", "Portfolio", "{3CA636FA-B482-457F-89C0-F7485149EC43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoShapes", "GeoShapes\GeoShapes.csproj", "{F7C36B0A-8420-4B0B-9F0D-C8DBBE83ACA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoShapesTest", "GeoShapesTest\GeoShapesTest.csproj", "{E2AE5AEF-6304-4DBE-B1C6-05785C20A755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +40,25 @@ Global
 		{3B6324A0-AB89-4974-8432-518466238A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B6324A0-AB89-4974-8432-518466238A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B6324A0-AB89-4974-8432-518466238A66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7848C4-85FB-44AA-BD68-C04ECA13B22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1A7A0B-4E0D-4B53-8BBA-6DC567E13EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C36B0A-8420-4B0B-9F0D-C8DBBE83ACA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C36B0A-8420-4B0B-9F0D-C8DBBE83ACA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C36B0A-8420-4B0B-9F0D-C8DBBE83ACA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C36B0A-8420-4B0B-9F0D-C8DBBE83ACA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AE5AEF-6304-4DBE-B1C6-05785C20A755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AE5AEF-6304-4DBE-B1C6-05785C20A755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AE5AEF-6304-4DBE-B1C6-05785C20A755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AE5AEF-6304-4DBE-B1C6-05785C20A755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7C36B0A-8420-4B0B-9F0D-C8DBBE83ACA7} = {3CA636FA-B482-457F-89C0-F7485149EC43}
+		{E2AE5AEF-6304-4DBE-B1C6-05785C20A755} = {3CA636FA-B482-457F-89C0-F7485149EC43}
 	EndGlobalSection
 EndGlobal

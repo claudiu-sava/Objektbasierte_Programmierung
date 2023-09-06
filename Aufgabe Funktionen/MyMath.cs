@@ -14,7 +14,7 @@ public class MyMath
 
         return a;
     }
-
+    
     public static int calc_kgV(int a, int b)
     {
         if (b == 0)
