@@ -41,7 +41,7 @@ class Program
         Rechteck rechteck3 = new Rechteck(rechteckLinie1, rechteckLinie5, rechteckLinie2, rechteckLinie6);
         
         // Calculations
-        Console.WriteLine($"Dreieck Umfang: {dreieck1.CalculateUmfang()}");
+        Console.WriteLine($"Dreieck Flaeche: {dreieck1.CalculateFlaeche()}");
         Console.WriteLine($"Rechteck Umfang: {rechteck1.CalculateUmfang()}");
         Console.WriteLine($"Kreis Fläche: {kreis1.CalculateFlaeche()}");
 

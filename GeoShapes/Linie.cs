@@ -7,7 +7,7 @@ public class Linie
     private double _lenght;
     public double lenght { get { return _lenght; } }
 
-    public Linie(double _lenght)
+    public Linie(double lenght)
     {
         if (_lenght <= 0)
         {
@@ -15,7 +15,7 @@ public class Linie
         }
         else
         {
-            this._lenght = _lenght;
+            _lenght = lenght;
         }
     }
 }

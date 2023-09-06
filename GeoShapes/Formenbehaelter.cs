@@ -7,22 +7,22 @@ public class Formenbehaelter
     private Kreis _kreis1;
     
     // Der Formenbehälter kann einen bis drei Kreise besitzen
-    private int maxKreis = 3;
-    private int minKreis = 1;
+    private int _maxKreis = 3;
+    private int _minKreis = 1;
     private List<Kreis> _kreisNumber = new List<Kreis>();
     
     // Der Formenbehälter kann null bis vier Dreiecke besitzen
-    private int maxDreieck = 4;
-    private int minDreieck = 0;
+    private int _maxDreieck = 4;
+    private int _minDreieck = 0;
     private List<Dreieck> _dreieckNumber = new List<Dreieck>();
 
     
     // Der Formenbehälter muss genau 2 Rechtecke besitzen
     public Formenbehaelter(Rechteck rechteck1, Rechteck rechteck2, Kreis kreis1)
     {
-        this._rechteck1 = rechteck1;
-        this._rechteck2 = rechteck2;
-        this._kreis1 = kreis1;
+        _rechteck1 = rechteck1;
+        _rechteck2 = rechteck2;
+        _kreis1 = kreis1;
         _kreisNumber.Add(_kreis1);
     }
 
@@ -31,7 +31,7 @@ public class Formenbehaelter
     /// </summary>
     public void AddKreis(Kreis kreis)
     {
-        if (_kreisNumber.Count < maxKreis)
+        if (_kreisNumber.Count < _maxKreis)
         {
             _kreisNumber.Add(kreis);
             Console.WriteLine($"Kreis added successfully. You have {_kreisNumber.Count} Kreis inside the Formenbehälter");
@@ -47,14 +47,14 @@ public class Formenbehaelter
     /// </summary>
     public void DeleteKreis(Kreis kreis)
     {
-        if (_kreisNumber.Count > minKreis)
+        if (_kreisNumber.Count > _minKreis)
         {
             _kreisNumber.Remove(kreis);
             Console.WriteLine($"Kreis removed successfully. You have {_kreisNumber.Count} Kreis inside the Formenbehälter");
         }
         else
         {
-            Console.WriteLine($"You cannot have less than {minKreis} Kreis! You have {_kreisNumber.Count} Kreis inside the Formenbehälter");
+            Console.WriteLine($"You cannot have less than {_minKreis} Kreis! You have {_kreisNumber.Count} Kreis inside the Formenbehälter");
         }
     }
 
@@ -64,7 +64,7 @@ public class Formenbehaelter
     /// </summary>
     public void AddDreieck(Dreieck dreieck)
     {
-        if (_dreieckNumber.Count < maxDreieck)
+        if (_dreieckNumber.Count < _maxDreieck)
         {
             _dreieckNumber.Add(dreieck);
             Console.WriteLine($"Dreieck added successfully. You have {_dreieckNumber.Count} Dreieck inside the Formenbehälter");

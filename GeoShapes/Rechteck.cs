@@ -10,10 +10,10 @@ public class Rechteck
 
     public Rechteck(Linie width1, Linie height1, Linie width2, Linie height2)
     {
-        this._linie1 = width1;
-        this._linie2 = height1;
-        this._linie3 = width2;
-        this._linie4 = height2;
+        _linie1 = width1;
+        _linie2 = height1;
+        _linie3 = width2;
+        _linie4 = height2;
 
         if (isChecked())
         {

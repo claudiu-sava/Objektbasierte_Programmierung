@@ -7,7 +7,7 @@ public class Kreis
     
     public Kreis(Linie linie) 
     {
-        this._linie = linie;
+        _linie = linie;
         Console.WriteLine("Kreis -- Done!");
     }
     

@@ -8,9 +8,9 @@ public class Dreieck
 
     public Dreieck(Linie linie1, Linie linie2, Linie linie3)
     {
-        this._linie1 = linie1;
-        this._linie2 = linie2;
-        this._linie3 = linie3;
+        _linie1 = linie1;
+        _linie2 = linie2;
+        _linie3 = linie3;
 
         if (isChecked())
         {
