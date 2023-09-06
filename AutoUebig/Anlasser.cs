@@ -2,7 +2,7 @@ namespace Auto;
 
 public class Anlasser
 {
-    public static void Starten()
+    public void Starten()
     {
         Console.WriteLine("Anlasser gestartet");
     }

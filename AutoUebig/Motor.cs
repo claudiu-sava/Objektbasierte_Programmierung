@@ -2,11 +2,18 @@ namespace Auto;
 
 public class Motor
 {
+    
+
+
+    
     public static void Starten()
     {
+        Benzinpumpe benzinpumpe = new Benzinpumpe();
+        Anlasser analsser = new Anlasser();
+        
         Console.WriteLine("Motor starten");
-        Benzinpumpe.Pumpen();
-        Anlasser.Starten();
+        benzinpumpe.Pumpen();
+        analsser.Starten();
         Regeln();
     }
 
@@ -15,11 +22,12 @@ public class Motor
 
     int i = 0;
     
-    while (i <= 7)
+    while (i < 7)
     {
         Console.WriteLine("Motor regeln");
         i += 1;
     }
+    
     Anlasser.Stoppen();
 }
 }
