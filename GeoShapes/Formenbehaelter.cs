@@ -26,6 +26,9 @@ public class Formenbehaelter
         _kreisNumber.Add(_kreis1);
     }
 
+    /// <summary>
+    /// Add a Kreis to Formenbehaelter
+    /// </summary>
     public void AddKreis(Kreis kreis)
     {
         if (_kreisNumber.Count < maxKreis)
@@ -39,6 +42,9 @@ public class Formenbehaelter
         }
     }
     
+    /// <summary>
+    /// Remove a Kreis from Formenbehaelter
+    /// </summary>
     public void DeleteKreis(Kreis kreis)
     {
         if (_kreisNumber.Count > minKreis)
@@ -52,6 +58,10 @@ public class Formenbehaelter
         }
     }
 
+    
+    /// <summary>
+    /// Add a Dreieck to Formenbehaelter
+    /// </summary>
     public void AddDreieck(Dreieck dreieck)
     {
         if (_dreieckNumber.Count < maxDreieck)
@@ -64,7 +74,11 @@ public class Formenbehaelter
             Console.WriteLine($"You have reached the max number of Dreieck! You have {_dreieckNumber.Count} Dreieck inside the Formenbehälter");
         }
     }
+    
 
+    /// <summary>
+    /// Remove a Dreieck from Formenbehaelter
+    /// </summary>
     public void DeleteDreieck(Dreieck dreieck)
     {
         if (_dreieckNumber.Count == 0)

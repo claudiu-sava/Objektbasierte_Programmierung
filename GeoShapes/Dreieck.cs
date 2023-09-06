@@ -35,11 +35,20 @@ public class Dreieck
         }
     }
 
+    /// <summary>
+    /// Calculate the Umfang
+    /// </summary>
+    /// <returns>Umfang</returns>
     public double CalculateUmfang()
     {
         return _linie1.lenght + _linie2.lenght + _linie3.lenght;
     }
+    
 
+    /// <summary>
+    /// Calculate the Flaeche
+    /// </summary>
+    /// <returns>Flaeche</returns>
     public double CalculateFlaeche()
     {
         double semiPerimeter = CalculateUmfang() / 2;

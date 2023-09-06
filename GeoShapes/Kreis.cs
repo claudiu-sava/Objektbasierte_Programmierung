@@ -13,12 +13,20 @@ public class Kreis
     
     
 
-
+    /// <summary>
+    /// Calculate the Umfang
+    /// </summary>
+    /// <returns>Umfang</returns>
     public double CalculateUmfang()
     {
         return _linie.lenght;
     }
+    
 
+    /// <summary>
+    /// Calculate the Flaeche
+    /// </summary>
+    /// <returns>Flaeche</returns>
     public double CalculateFlaeche()
     {
         double radius = _linie.lenght / 2;
