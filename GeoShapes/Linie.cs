@@ -9,7 +9,7 @@ public class Linie
 
     public Linie(double lenght)
     {
-        if (_lenght <= 0)
+        if (lenght <= 0)
         {
             Console.WriteLine("The number have to bigger than 0!");
         }

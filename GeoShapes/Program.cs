@@ -36,6 +36,7 @@ class Program
         // Add dreieck to Formenbehaelter
         form.AddDreieck(dreieck1);
         
+        // EXTRA 
         
         // Create Rechteck WITHOUT adding it to Formenbehaelter
         Rechteck rechteck3 = new Rechteck(rechteckLinie1, rechteckLinie5, rechteckLinie2, rechteckLinie6);
