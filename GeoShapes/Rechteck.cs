@@ -25,6 +25,7 @@ public class Rechteck
         }
     }
 
+    // Checks if the 4 lines are building a Rechteck
     private bool isChecked()
     {
         if (_linie1.lenght == _linie3.lenght && _linie2.lenght == _linie4.lenght)

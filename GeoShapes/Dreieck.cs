@@ -23,6 +23,7 @@ public class Dreieck
         
     }
 
+    // Checks if the 3 lines can build a triangle
     private bool isChecked()
     {
         if (_linie1.lenght + _linie2.lenght > _linie3.lenght && _linie1.lenght + _linie3.lenght > _linie2.lenght && _linie2.lenght + _linie3.lenght > _linie1.lenght)
